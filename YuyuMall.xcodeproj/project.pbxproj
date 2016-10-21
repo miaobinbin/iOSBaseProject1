@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8749F8EB3CCC0A59A36BD8 /* libPods-YuyuMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D337DB0A13D9CF4EA0D97188 /* libPods-YuyuMall.a */; };
+		DD01B21D1D7BFBCE00DD6CF5 /* UIView+FrameAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B21C1D7BFBCE00DD6CF5 /* UIView+FrameAddition.m */; };
+		DD01B2231D7BFC6000DD6CF5 /* UIColor+YuyuMall.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B2221D7BFC6000DD6CF5 /* UIColor+YuyuMall.m */; };
+		DD01B2261D7BFD2300DD6CF5 /* UIFont+YuyuMall.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B2251D7BFD2300DD6CF5 /* UIFont+YuyuMall.m */; };
+		DD01B2291D7BFDC300DD6CF5 /* NSString+YuyuMall.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B2281D7BFDC300DD6CF5 /* NSString+YuyuMall.m */; };
+		DD01B22C1D7BFF2500DD6CF5 /* NSObject+YuyuMall.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B22B1D7BFF2500DD6CF5 /* NSObject+YuyuMall.m */; };
+		DD01B22F1D7C005400DD6CF5 /* NSDate+YuyuMall.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B22E1D7C005400DD6CF5 /* NSDate+YuyuMall.m */; };
+		DD01B2331D7C013200DD6CF5 /* YYMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B2321D7C013200DD6CF5 /* YYMLog.m */; };
+		DD01B2371D7C049900DD6CF5 /* OnePixLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B2361D7C049900DD6CF5 /* OnePixLineView.m */; };
+		DD01B23E1D7C08B400DD6CF5 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B2391D7C08B400DD6CF5 /* CycleScrollView.m */; };
+		DD01B23F1D7C08B400DD6CF5 /* MyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B23B1D7C08B400DD6CF5 /* MyPageControl.m */; };
+		DD01B2401D7C08B400DD6CF5 /* YMMultiImageViewShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B23D1D7C08B400DD6CF5 /* YMMultiImageViewShowView.m */; };
+		DD01B2431D7C098E00DD6CF5 /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = DD01B2421D7C098E00DD6CF5 /* GlobalData.m */; };
+		DD01B24F1D7C104700DD6CF5 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2491D7C104700DD6CF5 /* libWeChatSDK.a */; };
+		DD01B2501D7C104700DD6CF5 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD01B24A1D7C104700DD6CF5 /* read_me.txt */; };
+		DD01B2511D7C104700DD6CF5 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD01B24B1D7C104700DD6CF5 /* README.txt */; };
+		DD01B2531D7C106E00DD6CF5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2521D7C106E00DD6CF5 /* CoreTelephony.framework */; };
+		DD01B2551D7C108700DD6CF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2541D7C108700DD6CF5 /* SystemConfiguration.framework */; };
+		DD01B2571D7C109A00DD6CF5 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2561D7C109A00DD6CF5 /* libz.1.2.5.tbd */; };
+		DD01B2591D7C10A900DD6CF5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2581D7C10A900DD6CF5 /* libsqlite3.0.tbd */; };
+		DD01B25B1D7C120100DD6CF5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B25A1D7C120100DD6CF5 /* libc++.tbd */; };
+		DD01B25F1D7C166900DD6CF5 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD01B25D1D7C166900DD6CF5 /* AlipaySDK.bundle */; };
+		DD01B2601D7C166900DD6CF5 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B25E1D7C166900DD6CF5 /* AlipaySDK.framework */; };
+		DD01B2621D7C170A00DD6CF5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2611D7C170A00DD6CF5 /* CoreMotion.framework */; };
+		DD01B2641D7C171F00DD6CF5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2631D7C171F00DD6CF5 /* QuartzCore.framework */; };
+		DD01B2661D7C172B00DD6CF5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2651D7C172B00DD6CF5 /* CoreText.framework */; };
+		DD01B2681D7C173800DD6CF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2671D7C173800DD6CF5 /* CoreGraphics.framework */; };
+		DD01B26A1D7C174F00DD6CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD01B2691D7C174F00DD6CF5 /* Foundation.framework */; };
+		DD0A60DF1D7D381F00A86F08 /* GestureBackNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0A60DA1D7D381F00A86F08 /* GestureBackNoticeView.m */; };
+		DD0A60E01D7D381F00A86F08 /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0A60DC1D7D381F00A86F08 /* MLNavigationController.m */; };
+		DD3AA2F01D7870950040F822 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA2E41D7870950040F822 /* AppDelegate.m */; };
+		DD3AA2F11D7870950040F822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3AA2E51D7870950040F822 /* Assets.xcassets */; };
+		DD3AA2F41D7870950040F822 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3AA2EB1D7870950040F822 /* Info.plist */; };
+		DD3AA2F61D7870950040F822 /* YuyuMall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA2EE1D7870950040F822 /* YuyuMall.xcdatamodeld */; };
+		DD3AA3091D7873A30040F822 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA2F81D7873A30040F822 /* NSArray+Safe.m */; };
+		DD3AA30C1D7873A30040F822 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA2FE1D7873A30040F822 /* NSMutableArray+Safe.m */; };
+		DD3AA3111D7873A30040F822 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA3081D7873A30040F822 /* NSTimer+Addition.m */; };
+		DD3AA3191D78762C0040F822 /* HudUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA3141D78762C0040F822 /* HudUtils.m */; };
+		DD3AA31A1D78762C0040F822 /* TNDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA3161D78762C0040F822 /* TNDeviceUtils.m */; };
+		DD3AA31B1D78762C0040F822 /* TNMacAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3AA3181D78762C0040F822 /* TNMacAddress.m */; };
+		DD695D951D791856006492E2 /* AppDelegate+Service.m in Sources */ = {isa = PBXBuildFile; fileRef = DD695D941D791856006492E2 /* AppDelegate+Service.m */; };
+		DD695D981D79187C006492E2 /* AppDelegate+RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD695D971D79187C006492E2 /* AppDelegate+RootController.m */; };
+		DD695D9C1D7919EE006492E2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD695D9B1D7919EE006492E2 /* RootViewController.m */; };
+		DD695D9F1D79D45E006492E2 /* ImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DD695D9E1D79D45E006492E2 /* ImageTools.m */; };
+		DD695DA11D7A5AD9006492E2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD695DA01D7A5AD9006492E2 /* ImageIO.framework */; };
+		DD695DA31D7A5AE9006492E2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD695DA21D7A5AE9006492E2 /* CFNetwork.framework */; };
+		DD695DA51D7A5B3C006492E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD695DA41D7A5B3C006492E2 /* UIKit.framework */; };
+		DD8D04AE1D7D462200C9E06F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8D04AD1D7D462200C9E06F /* BaseViewController.m */; };
+		DDB2E9F41D78675C00DE5DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB2E9F31D78675C00DE5DDB /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AB8008D6B2F7355183A7443 /* Pods-YuyuMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuyuMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-YuyuMall/Pods-YuyuMall.release.xcconfig"; sourceTree = "<group>"; };
+		D337DB0A13D9CF4EA0D97188 /* libPods-YuyuMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YuyuMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD01B21A1D7BF69000DD6CF5 /* MacrosKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacrosKey.h; sourceTree = "<group>"; };
+		DD01B21B1D7BFBCE00DD6CF5 /* UIView+FrameAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAddition.h"; sourceTree = "<group>"; };
+		DD01B21C1D7BFBCE00DD6CF5 /* UIView+FrameAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAddition.m"; sourceTree = "<group>"; };
+		DD01B2211D7BFC6000DD6CF5 /* UIColor+YuyuMall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YuyuMall.h"; sourceTree = "<group>"; };
+		DD01B2221D7BFC6000DD6CF5 /* UIColor+YuyuMall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YuyuMall.m"; sourceTree = "<group>"; };
+		DD01B2241D7BFD2300DD6CF5 /* UIFont+YuyuMall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+YuyuMall.h"; sourceTree = "<group>"; };
+		DD01B2251D7BFD2300DD6CF5 /* UIFont+YuyuMall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YuyuMall.m"; sourceTree = "<group>"; };
+		DD01B2271D7BFDC300DD6CF5 /* NSString+YuyuMall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YuyuMall.h"; sourceTree = "<group>"; };
+		DD01B2281D7BFDC300DD6CF5 /* NSString+YuyuMall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YuyuMall.m"; sourceTree = "<group>"; };
+		DD01B22A1D7BFF2500DD6CF5 /* NSObject+YuyuMall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YuyuMall.h"; sourceTree = "<group>"; };
+		DD01B22B1D7BFF2500DD6CF5 /* NSObject+YuyuMall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YuyuMall.m"; sourceTree = "<group>"; };
+		DD01B22D1D7C005400DD6CF5 /* NSDate+YuyuMall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YuyuMall.h"; sourceTree = "<group>"; };
+		DD01B22E1D7C005400DD6CF5 /* NSDate+YuyuMall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YuyuMall.m"; sourceTree = "<group>"; };
+		DD01B2311D7C013200DD6CF5 /* YYMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMLog.h; sourceTree = "<group>"; };
+		DD01B2321D7C013200DD6CF5 /* YYMLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMLog.m; sourceTree = "<group>"; };
+		DD01B2351D7C049900DD6CF5 /* OnePixLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePixLineView.h; sourceTree = "<group>"; };
+		DD01B2361D7C049900DD6CF5 /* OnePixLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePixLineView.m; sourceTree = "<group>"; };
+		DD01B2381D7C08B400DD6CF5 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		DD01B2391D7C08B400DD6CF5 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		DD01B23A1D7C08B400DD6CF5 /* MyPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageControl.h; sourceTree = "<group>"; };
+		DD01B23B1D7C08B400DD6CF5 /* MyPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageControl.m; sourceTree = "<group>"; };
+		DD01B23C1D7C08B400DD6CF5 /* YMMultiImageViewShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMMultiImageViewShowView.h; sourceTree = "<group>"; };
+		DD01B23D1D7C08B400DD6CF5 /* YMMultiImageViewShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMMultiImageViewShowView.m; sourceTree = "<group>"; };
+		DD01B2411D7C098E00DD6CF5 /* GlobalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalData.h; sourceTree = "<group>"; };
+		DD01B2421D7C098E00DD6CF5 /* GlobalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalData.m; sourceTree = "<group>"; };
+		DD01B2441D7C0D9700DD6CF5 /* MacrosErrorCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacrosErrorCode.h; sourceTree = "<group>"; };
+		DD01B2491D7C104700DD6CF5 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		DD01B24A1D7C104700DD6CF5 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		DD01B24B1D7C104700DD6CF5 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		DD01B24C1D7C104700DD6CF5 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		DD01B24D1D7C104700DD6CF5 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		DD01B24E1D7C104700DD6CF5 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		DD01B2521D7C106E00DD6CF5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DD01B2541D7C108700DD6CF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DD01B2561D7C109A00DD6CF5 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		DD01B2581D7C10A900DD6CF5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DD01B25A1D7C120100DD6CF5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DD01B25D1D7C166900DD6CF5 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		DD01B25E1D7C166900DD6CF5 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		DD01B2611D7C170A00DD6CF5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DD01B2631D7C171F00DD6CF5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD01B2651D7C172B00DD6CF5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DD01B2671D7C173800DD6CF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD01B2691D7C174F00DD6CF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD0A60D91D7D381F00A86F08 /* GestureBackNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureBackNoticeView.h; sourceTree = "<group>"; };
+		DD0A60DA1D7D381F00A86F08 /* GestureBackNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureBackNoticeView.m; sourceTree = "<group>"; };
+		DD0A60DB1D7D381F00A86F08 /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
+		DD0A60DC1D7D381F00A86F08 /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
+		DD3AA2E31D7870950040F822 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YuyuMall/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		DD3AA2E41D7870950040F822 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YuyuMall/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		DD3AA2E51D7870950040F822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = YuyuMall/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DD3AA2EB1D7870950040F822 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YuyuMall/Info.plist; sourceTree = SOURCE_ROOT; };
+		DD3AA2EF1D7870950040F822 /* YuyuMall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YuyuMall.xcdatamodel; sourceTree = "<group>"; };
+		DD3AA2F71D7873A30040F822 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		DD3AA2F81D7873A30040F822 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		DD3AA2FD1D7873A30040F822 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		DD3AA2FE1D7873A30040F822 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		DD3AA3071D7873A30040F822 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		DD3AA3081D7873A30040F822 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		DD3AA3131D78762C0040F822 /* HudUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudUtils.h; sourceTree = "<group>"; };
+		DD3AA3141D78762C0040F822 /* HudUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudUtils.m; sourceTree = "<group>"; };
+		DD3AA3151D78762C0040F822 /* TNDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNDeviceUtils.h; sourceTree = "<group>"; };
+		DD3AA3161D78762C0040F822 /* TNDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNDeviceUtils.m; sourceTree = "<group>"; };
+		DD3AA3171D78762C0040F822 /* TNMacAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNMacAddress.h; sourceTree = "<group>"; };
+		DD3AA3181D78762C0040F822 /* TNMacAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNMacAddress.m; sourceTree = "<group>"; };
+		DD695D921D791657006492E2 /* YuyuMall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YuyuMall-Prefix.pch"; sourceTree = "<group>"; };
+		DD695D931D791856006492E2 /* AppDelegate+Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Service.h"; sourceTree = "<group>"; };
+		DD695D941D791856006492E2 /* AppDelegate+Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Service.m"; sourceTree = "<group>"; };
+		DD695D961D79187C006492E2 /* AppDelegate+RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RootController.h"; sourceTree = "<group>"; };
+		DD695D971D79187C006492E2 /* AppDelegate+RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RootController.m"; sourceTree = "<group>"; };
+		DD695D9A1D7919EE006492E2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DD695D9B1D7919EE006492E2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DD695D9D1D79D45E006492E2 /* ImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTools.h; sourceTree = "<group>"; };
+		DD695D9E1D79D45E006492E2 /* ImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTools.m; sourceTree = "<group>"; };
+		DD695DA01D7A5AD9006492E2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DD695DA21D7A5AE9006492E2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DD695DA41D7A5B3C006492E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD695DA71D7A5C5E006492E2 /* MacrosNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacrosNotification.h; sourceTree = "<group>"; };
+		DD8D04AC1D7D462200C9E06F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DD8D04AD1D7D462200C9E06F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DDB2E9EF1D78675C00DE5DDB /* YuyuMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuyuMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB2E9F31D78675C00DE5DDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB22D2F63E4D428754C1183B /* Pods-YuyuMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuyuMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YuyuMall/Pods-YuyuMall.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB2E9EC1D78675C00DE5DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD01B26A1D7C174F00DD6CF5 /* Foundation.framework in Frameworks */,
+				DD01B2681D7C173800DD6CF5 /* CoreGraphics.framework in Frameworks */,
+				DD01B2661D7C172B00DD6CF5 /* CoreText.framework in Frameworks */,
+				DD01B2641D7C171F00DD6CF5 /* QuartzCore.framework in Frameworks */,
+				DD01B2621D7C170A00DD6CF5 /* CoreMotion.framework in Frameworks */,
+				DD01B25B1D7C120100DD6CF5 /* libc++.tbd in Frameworks */,
+				DD01B2591D7C10A900DD6CF5 /* libsqlite3.0.tbd in Frameworks */,
+				DD01B2571D7C109A00DD6CF5 /* libz.1.2.5.tbd in Frameworks */,
+				DD01B2551D7C108700DD6CF5 /* SystemConfiguration.framework in Frameworks */,
+				DD01B2531D7C106E00DD6CF5 /* CoreTelephony.framework in Frameworks */,
+				DD695DA51D7A5B3C006492E2 /* UIKit.framework in Frameworks */,
+				DD01B2601D7C166900DD6CF5 /* AlipaySDK.framework in Frameworks */,
+				DD695DA31D7A5AE9006492E2 /* CFNetwork.framework in Frameworks */,
+				DD695DA11D7A5AD9006492E2 /* ImageIO.framework in Frameworks */,
+				9F8749F8EB3CCC0A59A36BD8 /* libPods-YuyuMall.a in Frameworks */,
+				DD01B24F1D7C104700DD6CF5 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4387B78DB8735855BDA93A9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B2691D7C174F00DD6CF5 /* Foundation.framework */,
+				DD01B2671D7C173800DD6CF5 /* CoreGraphics.framework */,
+				DD01B2651D7C172B00DD6CF5 /* CoreText.framework */,
+				DD01B2631D7C171F00DD6CF5 /* QuartzCore.framework */,
+				DD01B2611D7C170A00DD6CF5 /* CoreMotion.framework */,
+				DD01B25A1D7C120100DD6CF5 /* libc++.tbd */,
+				DD01B2581D7C10A900DD6CF5 /* libsqlite3.0.tbd */,
+				DD01B2561D7C109A00DD6CF5 /* libz.1.2.5.tbd */,
+				DD01B2541D7C108700DD6CF5 /* SystemConfiguration.framework */,
+				DD01B2521D7C106E00DD6CF5 /* CoreTelephony.framework */,
+				DD695DA41D7A5B3C006492E2 /* UIKit.framework */,
+				DD695DA21D7A5AE9006492E2 /* CFNetwork.framework */,
+				DD695DA01D7A5AD9006492E2 /* ImageIO.framework */,
+				D337DB0A13D9CF4EA0D97188 /* libPods-YuyuMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00A2AF86EC7A68577A57DF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB22D2F63E4D428754C1183B /* Pods-YuyuMall.debug.xcconfig */,
+				4AB8008D6B2F7355183A7443 /* Pods-YuyuMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD01B2301D7C011000DD6CF5 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B2311D7C013200DD6CF5 /* YYMLog.h */,
+				DD01B2321D7C013200DD6CF5 /* YYMLog.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		DD01B2341D7C049900DD6CF5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B2381D7C08B400DD6CF5 /* CycleScrollView.h */,
+				DD01B2391D7C08B400DD6CF5 /* CycleScrollView.m */,
+				DD01B23A1D7C08B400DD6CF5 /* MyPageControl.h */,
+				DD01B23B1D7C08B400DD6CF5 /* MyPageControl.m */,
+				DD01B23C1D7C08B400DD6CF5 /* YMMultiImageViewShowView.h */,
+				DD01B23D1D7C08B400DD6CF5 /* YMMultiImageViewShowView.m */,
+				DD01B2351D7C049900DD6CF5 /* OnePixLineView.h */,
+				DD01B2361D7C049900DD6CF5 /* OnePixLineView.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DD01B2471D7C100400DD6CF5 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B25C1D7C166900DD6CF5 /* zhifubao */,
+				DD01B2481D7C104700DD6CF5 /* weixin */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		DD01B2481D7C104700DD6CF5 /* weixin */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B2491D7C104700DD6CF5 /* libWeChatSDK.a */,
+				DD01B24A1D7C104700DD6CF5 /* read_me.txt */,
+				DD01B24B1D7C104700DD6CF5 /* README.txt */,
+				DD01B24C1D7C104700DD6CF5 /* WechatAuthSDK.h */,
+				DD01B24D1D7C104700DD6CF5 /* WXApi.h */,
+				DD01B24E1D7C104700DD6CF5 /* WXApiObject.h */,
+			);
+			path = weixin;
+			sourceTree = "<group>";
+		};
+		DD01B25C1D7C166900DD6CF5 /* zhifubao */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B25D1D7C166900DD6CF5 /* AlipaySDK.bundle */,
+				DD01B25E1D7C166900DD6CF5 /* AlipaySDK.framework */,
+			);
+			path = zhifubao;
+			sourceTree = "<group>";
+		};
+		DD0A60D81D7D381F00A86F08 /* MGestureBackNav */ = {
+			isa = PBXGroup;
+			children = (
+				DD0A60D91D7D381F00A86F08 /* GestureBackNoticeView.h */,
+				DD0A60DA1D7D381F00A86F08 /* GestureBackNoticeView.m */,
+				DD0A60DB1D7D381F00A86F08 /* MLNavigationController.h */,
+				DD0A60DC1D7D381F00A86F08 /* MLNavigationController.m */,
+				DD8D04AC1D7D462200C9E06F /* BaseViewController.h */,
+				DD8D04AD1D7D462200C9E06F /* BaseViewController.m */,
+			);
+			path = MGestureBackNav;
+			sourceTree = "<group>";
+		};
+		DD3AA2DC1D7870820040F822 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				DD0A60D81D7D381F00A86F08 /* MGestureBackNav */,
+				DD01B2471D7C100400DD6CF5 /* 3rd */,
+				DD01B2301D7C011000DD6CF5 /* Logger */,
+				DD3AA3121D78762C0040F822 /* Utils */,
+				DD3AA2DD1D7870820040F822 /* Category */,
+				DD3AA2DE1D7870820040F822 /* Const */,
+				DD3AA2DF1D7870820040F822 /* DataBase */,
+				DD3AA2E01D7870820040F822 /* Macros */,
+				DD3AA2E11D7870820040F822 /* NetWork */,
+				DD3AA2E21D7870820040F822 /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		DD3AA2DD1D7870820040F822 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B21B1D7BFBCE00DD6CF5 /* UIView+FrameAddition.h */,
+				DD01B21C1D7BFBCE00DD6CF5 /* UIView+FrameAddition.m */,
+				DD3AA2F71D7873A30040F822 /* NSArray+Safe.h */,
+				DD3AA2F81D7873A30040F822 /* NSArray+Safe.m */,
+				DD3AA2FD1D7873A30040F822 /* NSMutableArray+Safe.h */,
+				DD3AA2FE1D7873A30040F822 /* NSMutableArray+Safe.m */,
+				DD3AA3071D7873A30040F822 /* NSTimer+Addition.h */,
+				DD3AA3081D7873A30040F822 /* NSTimer+Addition.m */,
+				DD01B2211D7BFC6000DD6CF5 /* UIColor+YuyuMall.h */,
+				DD01B2221D7BFC6000DD6CF5 /* UIColor+YuyuMall.m */,
+				DD01B2241D7BFD2300DD6CF5 /* UIFont+YuyuMall.h */,
+				DD01B2251D7BFD2300DD6CF5 /* UIFont+YuyuMall.m */,
+				DD01B2271D7BFDC300DD6CF5 /* NSString+YuyuMall.h */,
+				DD01B2281D7BFDC300DD6CF5 /* NSString+YuyuMall.m */,
+				DD01B22A1D7BFF2500DD6CF5 /* NSObject+YuyuMall.h */,
+				DD01B22B1D7BFF2500DD6CF5 /* NSObject+YuyuMall.m */,
+				DD01B22D1D7C005400DD6CF5 /* NSDate+YuyuMall.h */,
+				DD01B22E1D7C005400DD6CF5 /* NSDate+YuyuMall.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DD3AA2DE1D7870820040F822 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B2411D7C098E00DD6CF5 /* GlobalData.h */,
+				DD01B2421D7C098E00DD6CF5 /* GlobalData.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		DD3AA2DF1D7870820040F822 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		DD3AA2E01D7870820040F822 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				DD695DA71D7A5C5E006492E2 /* MacrosNotification.h */,
+				DD01B21A1D7BF69000DD6CF5 /* MacrosKey.h */,
+				DD01B2441D7C0D9700DD6CF5 /* MacrosErrorCode.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		DD3AA2E11D7870820040F822 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		DD3AA2E21D7870820040F822 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DD695D9D1D79D45E006492E2 /* ImageTools.h */,
+				DD695D9E1D79D45E006492E2 /* ImageTools.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DD3AA2E61D7870950040F822 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base.lproj;
+			path = YuyuMall/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		DD3AA3121D78762C0040F822 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD3AA3131D78762C0040F822 /* HudUtils.h */,
+				DD3AA3141D78762C0040F822 /* HudUtils.m */,
+				DD3AA3151D78762C0040F822 /* TNDeviceUtils.h */,
+				DD3AA3161D78762C0040F822 /* TNDeviceUtils.m */,
+				DD3AA3171D78762C0040F822 /* TNMacAddress.h */,
+				DD3AA3181D78762C0040F822 /* TNMacAddress.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DD695D991D7919D4006492E2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DD695D9A1D7919EE006492E2 /* RootViewController.h */,
+				DD695D9B1D7919EE006492E2 /* RootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DDB2E9E61D78675B00DE5DDB = {
+			isa = PBXGroup;
+			children = (
+				DDB2E9F11D78675C00DE5DDB /* YuyuMall */,
+				DDB2E9F01D78675C00DE5DDB /* Products */,
+				A00A2AF86EC7A68577A57DF6 /* Pods */,
+				4387B78DB8735855BDA93A9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB2E9F01D78675C00DE5DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2E9EF1D78675C00DE5DDB /* YuyuMall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB2E9F11D78675C00DE5DDB /* YuyuMall */ = {
+			isa = PBXGroup;
+			children = (
+				DD3AA2DC1D7870820040F822 /* Expand */,
+				DDECA6D61D786FF600EF9188 /* Model */,
+				DDECA6D71D786FF600EF9188 /* Other */,
+				DDECA6EB1D786FF600EF9188 /* Resource */,
+				DDECA6EF1D786FF600EF9188 /* View */,
+				DDECA6F01D786FF600EF9188 /* ViewController */,
+				DDB2E9F21D78675C00DE5DDB /* Supporting Files */,
+			);
+			path = YuyuMall;
+			sourceTree = "<group>";
+		};
+		DDB2E9F21D78675C00DE5DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB2E9F31D78675C00DE5DDB /* main.m */,
+				DD695D921D791657006492E2 /* YuyuMall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDECA6D61D786FF600EF9188 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDECA6D71D786FF600EF9188 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DD3AA2E31D7870950040F822 /* AppDelegate.h */,
+				DD3AA2E41D7870950040F822 /* AppDelegate.m */,
+				DD3AA2E51D7870950040F822 /* Assets.xcassets */,
+				DD3AA2E61D7870950040F822 /* Base.lproj */,
+				DD3AA2EB1D7870950040F822 /* Info.plist */,
+				DD3AA2EE1D7870950040F822 /* YuyuMall.xcdatamodeld */,
+				DD695D931D791856006492E2 /* AppDelegate+Service.h */,
+				DD695D941D791856006492E2 /* AppDelegate+Service.m */,
+				DD695D961D79187C006492E2 /* AppDelegate+RootController.h */,
+				DD695D971D79187C006492E2 /* AppDelegate+RootController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DDECA6EB1D786FF600EF9188 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DDECA6EC1D786FF600EF9188 /* Image */,
+				DDECA6ED1D786FF600EF9188 /* Plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DDECA6EC1D786FF600EF9188 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		DDECA6ED1D786FF600EF9188 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		DDECA6EF1D786FF600EF9188 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD01B2341D7C049900DD6CF5 /* Utils */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDECA6F01D786FF600EF9188 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD695D991D7919D4006492E2 /* Root */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB2E9EE1D78675C00DE5DDB /* YuyuMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB2EA091D78675C00DE5DDB /* Build configuration list for PBXNativeTarget "YuyuMall" */;
+			buildPhases = (
+				8D8683FCB0831B6C92A855CF /* [CP] Check Pods Manifest.lock */,
+				DDB2E9EB1D78675C00DE5DDB /* Sources */,
+				DDB2E9EC1D78675C00DE5DDB /* Frameworks */,
+				DDB2E9ED1D78675C00DE5DDB /* Resources */,
+				9B97E8936CD4AD6B3579F484 /* [CP] Embed Pods Frameworks */,
+				0E79A3799F97C15A2BF8EF53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuyuMall;
+			productName = YuyuMall;
+			productReference = DDB2E9EF1D78675C00DE5DDB /* YuyuMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB2E9E71D78675B00DE5DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = YuyuMall;
+				TargetAttributes = {
+					DDB2E9EE1D78675C00DE5DDB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DDB2E9EA1D78675B00DE5DDB /* Build configuration list for PBXProject "YuyuMall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB2E9E61D78675B00DE5DDB;
+			productRefGroup = DDB2E9F01D78675C00DE5DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB2E9EE1D78675C00DE5DDB /* YuyuMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB2E9ED1D78675C00DE5DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD01B25F1D7C166900DD6CF5 /* AlipaySDK.bundle in Resources */,
+				DD3AA2F41D7870950040F822 /* Info.plist in Resources */,
+				DD01B2501D7C104700DD6CF5 /* read_me.txt in Resources */,
+				DD01B2511D7C104700DD6CF5 /* README.txt in Resources */,
+				DD3AA2F11D7870950040F822 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E79A3799F97C15A2BF8EF53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuyuMall/Pods-YuyuMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8683FCB0831B6C92A855CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B97E8936CD4AD6B3579F484 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YuyuMall/Pods-YuyuMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB2E9EB1D78675C00DE5DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3AA3191D78762C0040F822 /* HudUtils.m in Sources */,
+				DD3AA3111D7873A30040F822 /* NSTimer+Addition.m in Sources */,
+				DD3AA3091D7873A30040F822 /* NSArray+Safe.m in Sources */,
+				DD3AA2F01D7870950040F822 /* AppDelegate.m in Sources */,
+				DD01B22F1D7C005400DD6CF5 /* NSDate+YuyuMall.m in Sources */,
+				DD8D04AE1D7D462200C9E06F /* BaseViewController.m in Sources */,
+				DDB2E9F41D78675C00DE5DDB /* main.m in Sources */,
+				DD695D981D79187C006492E2 /* AppDelegate+RootController.m in Sources */,
+				DD0A60E01D7D381F00A86F08 /* MLNavigationController.m in Sources */,
+				DD01B23F1D7C08B400DD6CF5 /* MyPageControl.m in Sources */,
+				DD01B2291D7BFDC300DD6CF5 /* NSString+YuyuMall.m in Sources */,
+				DD01B23E1D7C08B400DD6CF5 /* CycleScrollView.m in Sources */,
+				DD3AA30C1D7873A30040F822 /* NSMutableArray+Safe.m in Sources */,
+				DD01B22C1D7BFF2500DD6CF5 /* NSObject+YuyuMall.m in Sources */,
+				DD01B2231D7BFC6000DD6CF5 /* UIColor+YuyuMall.m in Sources */,
+				DD01B2431D7C098E00DD6CF5 /* GlobalData.m in Sources */,
+				DD695D951D791856006492E2 /* AppDelegate+Service.m in Sources */,
+				DD3AA31A1D78762C0040F822 /* TNDeviceUtils.m in Sources */,
+				DD01B2261D7BFD2300DD6CF5 /* UIFont+YuyuMall.m in Sources */,
+				DD01B2401D7C08B400DD6CF5 /* YMMultiImageViewShowView.m in Sources */,
+				DD695D9C1D7919EE006492E2 /* RootViewController.m in Sources */,
+				DD3AA31B1D78762C0040F822 /* TNMacAddress.m in Sources */,
+				DD01B2331D7C013200DD6CF5 /* YYMLog.m in Sources */,
+				DD01B2371D7C049900DD6CF5 /* OnePixLineView.m in Sources */,
+				DD01B21D1D7BFBCE00DD6CF5 /* UIView+FrameAddition.m in Sources */,
+				DD0A60DF1D7D381F00A86F08 /* GestureBackNoticeView.m in Sources */,
+				DD3AA2F61D7870950040F822 /* YuyuMall.xcdatamodeld in Sources */,
+				DD695D9F1D79D45E006492E2 /* ImageTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDB2EA071D78675C00DE5DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDB2EA081D78675C00DE5DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB2EA0A1D78675C00DE5DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB22D2F63E4D428754C1183B /* Pods-YuyuMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YuyuMall/Expand/3rd/zhifubao",
+				);
+				GCC_PREFIX_HEADER = "YuyuMall/YuyuMall-Prefix.pch";
+				INFOPLIST_FILE = YuyuMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YuyuMall/Expand/3rd/weixin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyuto.mall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDB2EA0B1D78675C00DE5DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB8008D6B2F7355183A7443 /* Pods-YuyuMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YuyuMall/Expand/3rd/zhifubao",
+				);
+				GCC_PREFIX_HEADER = "YuyuMall/YuyuMall-Prefix.pch";
+				INFOPLIST_FILE = YuyuMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YuyuMall/Expand/3rd/weixin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyuto.mall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB2E9EA1D78675B00DE5DDB /* Build configuration list for PBXProject "YuyuMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB2EA071D78675C00DE5DDB /* Debug */,
+				DDB2EA081D78675C00DE5DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB2EA091D78675C00DE5DDB /* Build configuration list for PBXNativeTarget "YuyuMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB2EA0A1D78675C00DE5DDB /* Debug */,
+				DDB2EA0B1D78675C00DE5DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD3AA2EE1D7870950040F822 /* YuyuMall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD3AA2EF1D7870950040F822 /* YuyuMall.xcdatamodel */,
+			);
+			currentVersion = DD3AA2EF1D7870950040F822 /* YuyuMall.xcdatamodel */;
+			name = YuyuMall.xcdatamodeld;
+			path = ../YuyuMall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDB2E9E71D78675B00DE5DDB /* Project object */;
+}
